@@ -1,0 +1,100 @@
+#ribbon{
+background-color: red !important;
+background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(131, 21, 0.5)25px, rgba(131, 21, 0.5)40px)!important;
+}
+#ribbon::after{
+
+    content: '' !important;
+    background-color: transparent !important;
+    display: block !important;
+    height: 20px !important;
+    width: 50px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    left: auto !important;
+    margin-top: -40px !important;
+}
+
+#birthday {
+
+background-color: red !important;
+position: relative !important;
+margin-top:-20px !important;
+z-index: 10 !important;
+box-shadow: 0 0 16px rgba(0,0,0,0.5) !important;
+
+}
+
+#birthday img{
+position: relative;
+margin-top: -30px;
+}
+
+.text-shadow{
+text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+
+#separator-ribbon {
+width: 100%;
+overflow: hidden;
+position: relative;
+z-index: 2;
+}
+
+#separator-ribbon .content{
+width: 150%;
+height: 150px;
+margin-left: -25%;
+border-bottom-left-radius: 50%;
+border-bottom-right-radius: 50%;
+
+}
+
+.card-border {
+
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+
+    transform:  scale(1.05);
+}
+
+#games{
+
+background: rgb(255, 255, 255);
+background: url(./img/fondo.jpeg), linear-gradient(0deg, rgba(255,255,255,1)0%, rgba(99,196,255,1)57%);
+background-size: 75%;
+margin-top: -20px;
+background-repeat: repeat-x;
+}
+
+#separator-amibos {
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separator-amibos .content{
+
+    background: url(./img/amibos.jpg);
+    width: 110%;
+    height: 100px;
+    margin-left: -5%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+
+#amibos{ 
+
+    background: url(./img/fondo.jpeg), url(./img/minecraft\ slider\ 03.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: bottom center, center center;
+    background-size: 100%, auto;
+}

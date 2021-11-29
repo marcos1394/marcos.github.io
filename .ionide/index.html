@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Mi primer sitio de bootstrap </title>
+ <!-- CSS Bootstrap -->
+ <link rel="stylesheet" href="./general.css">
+ <link rel="stylesheet" href="./css/bootstrap.min.css">
+ 
+</head>
+<body>
+<!---NAVBAR-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+<div class="container-fluid">
+<a class="navbar-brand" href="#">
+    <img src="img\Minecraft-Logo.png" width="300" alt="Minecraft-Logo">
+</a>
+<button class="navbar-toggler" 
+type="button" 
+data-bs-toggle="collapse" 
+data-bs-target="#navbarSupportedContent"
+aria-controls="navbarSupportedContent"
+aria-expanded="false"
+aria-label="Toogle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="#"> home</a>      </li>
+        <li class="nav-item"><a class="nav-link active" href="#"> summer pack </a> </li>
+        <li class="nav-item"><a class="nav-link active" href="#"> about </a> </li>
+        <li class="nav-item"><a class="nav-link active" href="#"> register </a> </li>
+    <li class="nav-item"><a class="nav-link"href="#"> sign in </a> </li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!---  Carrusel   --->
+<div class="carousel slide" id="mainSlider" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./img/minecraft slider.jpg" alt="minecraft juego" class="d-block w-100">
+
+        </div>
+        <div class="carousel-item">
+            <img src="./img/minecraft slider 02.jpg" alt="minecraft juego" class="d-block w-100">
+
+        </div>
+        <div class="carousel-item">
+            <img src="./img/minecraft slider 03.jpg" alt="minecraft juego" class="d-block w-100">
+
+        </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+</div>
+<!--- Ribbon --->
+<div id="ribbon" class="container-fluid">
+    <div id="birthday" class="container w-50 pl-5">
+        <div class="row align-items-center">
+            <div class="col-sm p-3">
+                <img src="./img/Minecraft-Logo 2.png" alt="minecraft logo 2" class="w-75 mx-auto d-block">
+
+            </div>
+            <div class ="col-sm p-3 text-light text-center">         
+                <p class="text-warning h3"> today is </p>
+                    <h4 class="h2 text-shadow"> aranza and max are the best </h4>
+        </div>
+    </div>
+   
+    </div>    
+</div>
+<!--seperador ribbon-->
+<div id="separator-ribbon">
+    <div class="content bg-warning">
+
+    </div>
+</div>
+<!---Games-->
+<div id="games">
+    <div class="container-md p-5">
+        <div class="row pt-5">
+            <h3 class="text-center pb-5 pt-5 h1">featured animal crossing games</h3>
+        </div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="card w-100 card--border nb-5" style="width: 18rem;">
+                <img src="./img/minecraft-card.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">card title</h5>
+                    <p class="card-text">some quick example text to build on the card title</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card w-100 card--border nb-5" style="width: 18rem;">
+                <img src="./img/minecraft-card.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">card title</h5>
+                    <p class="card-text">some quick example text to build on the card title</p>
+                </div>
+              
+            </div>
+
+    </div>
+</div>
+<div class="row py-5">
+    <div class="col">
+        <h3 class="text-center" style="color: var(--bs-blue);">More information contact Aranza Queen's</h3>
+    </div>
+</div>
+<div class="row justify-content-center">
+    <div class="col-2"><a href="#">Minecraft</a></div>
+        <div class="col-2"><a href="#">Minecraft</a></div>
+            <div class="col-1"><a href="#">Minecraft</a></div>
+                <div class="col-1"><a href="#">Minecraft</a></div>
+                    <div class="col-1"><a href="#">Minecraft</a></div>
+
+    
+    </div>
+</div>
+</div>
+<!---separador amibos-->
+<div id="amibos" class="px-5 pb-5 bg-success">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center text-white text-shadow"> minecraft figures </h2>
+        </div>
+    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+        <div class="col-sm">
+            <img src="img/amibos.jpg" alt="" width="180" height="360" class="w-100">
+            <div class="text-center"><span class="amibo-name"></span></div>
+        </div>
+            <div class="col-sm">
+                <img src="img/amibos.jpg" alt="" width="180" height="360">
+                <div class="text-center"><span class="amibo-name"></span></div>
+            </div>
+                <div class="col-sm">
+                    <img src="img/amibos.jpg" alt="" width="180" height="360">
+                    <div class="text-center"><span class="amibo-name"></span></div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+   <script src="./js/bootstrap.bundle.min.js">
+</script>
+</body>
+
+
+
+
+
+</html>
